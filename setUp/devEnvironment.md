@@ -61,7 +61,7 @@ To log in run `mysql -u root -p`  the password you setup in install.
 
 sftp into the server ask Brian where the data dump is.
 
-Then you will need to create a table in mysql.  Once logged into mysql, you will want to create a table using the command: `CREATE TABLE sbe;`.
+Then you will need to create a table in mysql.  Once logged into mysql, you will want to create a table using the command: `CREATE DATABASE sbe;`.
 
 Once this is done you will want to exit out of mysql and run the following command: `mysql -u root -p sbe < [data dump]`.
 
